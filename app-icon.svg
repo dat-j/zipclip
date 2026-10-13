@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect x="48" y="48" width="928" height="928" rx="208" fill="url(#bg)"/>
+  <!-- khung video -->
+  <rect x="300" y="322" width="424" height="380" rx="72" fill="#ffffff"/>
+  <!-- nút play -->
+  <path d="M470 430 L470 594 L604 512 Z" fill="#1D4ED8" stroke="#1D4ED8" stroke-width="28" stroke-linejoin="round"/>
+  <!-- hai mũi tên ép vào = nén -->
+  <g fill="none" stroke="#ffffff" stroke-width="56" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M140 512 H228"/>
+    <path d="M176 446 L242 512 L176 578"/>
+    <path d="M884 512 H796"/>
+    <path d="M848 446 L782 512 L848 578"/>
+  </g>
+</svg>
